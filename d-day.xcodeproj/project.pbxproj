@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		CC0C8CA62E1B755A00B30281 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC0C8C8C2E1B755900B30281 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC0C8C932E1B755900B30281;
+			remoteInfo = "d-day";
+		};
+		CC0C8CB02E1B755A00B30281 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC0C8C8C2E1B755900B30281 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC0C8C932E1B755900B30281;
+			remoteInfo = "d-day";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC0C8C942E1B755900B30281 /* d-day.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "d-day.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0C8CA52E1B755A00B30281 /* d-dayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "d-dayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0C8CAF2E1B755A00B30281 /* d-dayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "d-dayUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CC0C8C962E1B755900B30281 /* d-day */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "d-day";
+			sourceTree = "<group>";
+		};
+		CC0C8CA82E1B755A00B30281 /* d-dayTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "d-dayTests";
+			sourceTree = "<group>";
+		};
+		CC0C8CB22E1B755A00B30281 /* d-dayUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "d-dayUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC0C8C912E1B755900B30281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0C8CA22E1B755A00B30281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0C8CAC2E1B755A00B30281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC0C8C8B2E1B755900B30281 = {
+			isa = PBXGroup;
+			children = (
+				CC0C8C962E1B755900B30281 /* d-day */,
+				CC0C8CA82E1B755A00B30281 /* d-dayTests */,
+				CC0C8CB22E1B755A00B30281 /* d-dayUITests */,
+				CC0C8C952E1B755900B30281 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC0C8C952E1B755900B30281 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC0C8C942E1B755900B30281 /* d-day.app */,
+				CC0C8CA52E1B755A00B30281 /* d-dayTests.xctest */,
+				CC0C8CAF2E1B755A00B30281 /* d-dayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC0C8C932E1B755900B30281 /* d-day */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC0C8CB92E1B755A00B30281 /* Build configuration list for PBXNativeTarget "d-day" */;
+			buildPhases = (
+				CC0C8C902E1B755900B30281 /* Sources */,
+				CC0C8C912E1B755900B30281 /* Frameworks */,
+				CC0C8C922E1B755900B30281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CC0C8C962E1B755900B30281 /* d-day */,
+			);
+			name = "d-day";
+			packageProductDependencies = (
+			);
+			productName = "d-day";
+			productReference = CC0C8C942E1B755900B30281 /* d-day.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC0C8CA42E1B755A00B30281 /* d-dayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC0C8CBC2E1B755A00B30281 /* Build configuration list for PBXNativeTarget "d-dayTests" */;
+			buildPhases = (
+				CC0C8CA12E1B755A00B30281 /* Sources */,
+				CC0C8CA22E1B755A00B30281 /* Frameworks */,
+				CC0C8CA32E1B755A00B30281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC0C8CA72E1B755A00B30281 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CC0C8CA82E1B755A00B30281 /* d-dayTests */,
+			);
+			name = "d-dayTests";
+			packageProductDependencies = (
+			);
+			productName = "d-dayTests";
+			productReference = CC0C8CA52E1B755A00B30281 /* d-dayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC0C8CAE2E1B755A00B30281 /* d-dayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC0C8CBF2E1B755A00B30281 /* Build configuration list for PBXNativeTarget "d-dayUITests" */;
+			buildPhases = (
+				CC0C8CAB2E1B755A00B30281 /* Sources */,
+				CC0C8CAC2E1B755A00B30281 /* Frameworks */,
+				CC0C8CAD2E1B755A00B30281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC0C8CB12E1B755A00B30281 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CC0C8CB22E1B755A00B30281 /* d-dayUITests */,
+			);
+			name = "d-dayUITests";
+			packageProductDependencies = (
+			);
+			productName = "d-dayUITests";
+			productReference = CC0C8CAF2E1B755A00B30281 /* d-dayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC0C8C8C2E1B755900B30281 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					CC0C8C932E1B755900B30281 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					CC0C8CA42E1B755A00B30281 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = CC0C8C932E1B755900B30281;
+					};
+					CC0C8CAE2E1B755A00B30281 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = CC0C8C932E1B755900B30281;
+					};
+				};
+			};
+			buildConfigurationList = CC0C8C8F2E1B755900B30281 /* Build configuration list for PBXProject "d-day" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC0C8C8B2E1B755900B30281;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CC0C8C952E1B755900B30281 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC0C8C932E1B755900B30281 /* d-day */,
+				CC0C8CA42E1B755A00B30281 /* d-dayTests */,
+				CC0C8CAE2E1B755A00B30281 /* d-dayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC0C8C922E1B755900B30281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0C8CA32E1B755A00B30281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0C8CAD2E1B755A00B30281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC0C8C902E1B755900B30281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0C8CA12E1B755A00B30281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0C8CAB2E1B755A00B30281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC0C8CA72E1B755A00B30281 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC0C8C932E1B755900B30281 /* d-day */;
+			targetProxy = CC0C8CA62E1B755A00B30281 /* PBXContainerItemProxy */;
+		};
+		CC0C8CB12E1B755A00B30281 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC0C8C932E1B755900B30281 /* d-day */;
+			targetProxy = CC0C8CB02E1B755A00B30281 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CC0C8CB72E1B755A00B30281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC0C8CB82E1B755A00B30281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CC0C8CBA2E1B755A00B30281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "d-day/d_day.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"d-day/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "menu.d-day";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CC0C8CBB2E1B755A00B30281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "d-day/d_day.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"d-day/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "menu.d-day";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CC0C8CBD2E1B755A00B30281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "menu.d-dayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/d-day.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/d-day";
+			};
+			name = Debug;
+		};
+		CC0C8CBE2E1B755A00B30281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "menu.d-dayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/d-day.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/d-day";
+			};
+			name = Release;
+		};
+		CC0C8CC02E1B755A00B30281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "menu.d-dayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "d-day";
+			};
+			name = Debug;
+		};
+		CC0C8CC12E1B755A00B30281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "menu.d-dayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "d-day";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC0C8C8F2E1B755900B30281 /* Build configuration list for PBXProject "d-day" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC0C8CB72E1B755A00B30281 /* Debug */,
+				CC0C8CB82E1B755A00B30281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC0C8CB92E1B755A00B30281 /* Build configuration list for PBXNativeTarget "d-day" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC0C8CBA2E1B755A00B30281 /* Debug */,
+				CC0C8CBB2E1B755A00B30281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC0C8CBC2E1B755A00B30281 /* Build configuration list for PBXNativeTarget "d-dayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC0C8CBD2E1B755A00B30281 /* Debug */,
+				CC0C8CBE2E1B755A00B30281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC0C8CBF2E1B755A00B30281 /* Build configuration list for PBXNativeTarget "d-dayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC0C8CC02E1B755A00B30281 /* Debug */,
+				CC0C8CC12E1B755A00B30281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC0C8C8C2E1B755900B30281 /* Project object */;
+}
